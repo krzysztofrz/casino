@@ -274,7 +274,7 @@ h1 {
   
    position: relative;
    height: 100%;
-    background-image: url(img/12ipadH.jpg);
+    background-image: url(img/12ipadH\ c.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -289,7 +289,7 @@ h1 {
   -webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
   -moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
   box-shadow: -5px 32px 177px 100px rgba(0,0,0,0.6);
-  background-color: rgba(0,0,0, 0.7);
+  background-color: rgba(0,0,0, 0.5);
    letter-spacing: 30px;
   
   
