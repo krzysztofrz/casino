@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASINO jednoręki bandyta</title>
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="notiflix-2.1.2.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+
+
+        <h1>CASINO</h1>
+
+        <section class="game">
+            <div class="color">
+                <img src="img/chipMain.png.png" alt="">
+            </div>
+            <div class="color">
+                <img src="img/chipMain.png.png" alt="">
+            </div>
+            <div class="color">
+                <img src="img/chipMain.png" alt="">
+            </div>
+        </section>
+
+        <section class="play clearfix">
+            <input type="number" placeholder="podaj stawkę" id="bid"> 
+            <button id="start">Zagraj</button>
+            
+        </section>
+
+        <section class="panel">TWOJE ŚRODKI PRZED KOLEJNĄ GRĄ TO: <span class="wallet"></span>$
+        </section>
+
+        <section class="score">
+            <span class="result"></span> Za tobą <span class="number"></span> gier, w tym <span class="win"></span>
+            wygranych
+            i <span class="loss"></span> przegranych
+        </section>
+        <button id='rules'>zasady gry</button>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="notiflix-2.1.2.min.js"></script>
+    <script src="Draw.js"></script>
+    <script src="Statistics.js"></script>
+    <script src="Wallet.js"></script>
+    <script src="Result.js"></script>
+    <script src="Game.js"></script>
+    <!-- <script src="game.js"></script> -->
+</body>
+
+</html>

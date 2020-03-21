@@ -1,0 +1,373 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+
+body {
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/11.jpg);
+    background-size: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    min-width: 320px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+  .swal-text {
+    font-family: 'Yatra One', sans-serif;
+  
+  }
+  .swal-footer {
+      text-align: center;
+      margin: auto;
+  }
+
+.wrap {
+ margin: 0 auto ;
+ font-family: 'Yatra One', sans-serif;
+ color: white;
+
+}
+
+h1 {
+font-size: 40px;
+ text-align: center;
+ text-transform: uppercase;
+ margin: 50px 30px 42px;
+ color: lightgray;
+ letter-spacing: 15px;
+
+}
+.game {
+ text-align: center;
+ margin: 3vh;
+  width: 90%;
+  height: 18vh;
+  margin: 0 auto;
+
+}
+.game div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.color {
+  margin: 0 auto;
+  width: 33.2%;
+  float: left;
+}
+
+.color img {
+  margin: 0 auto;
+    display: block;
+    height: 10vh;
+    
+}
+
+#bid{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 8px 6px;
+background-color: rgba(1, 1, 1, 0.5);
+color: white;
+font-weight: 500;
+border-radius: 6px;
+width: 40vw;
+display:block;
+
+}
+#bid:focus {
+  background-color: black;
+  color: white;
+} 
+button {
+  /* display:block; */
+
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 6px;
+    color: white;
+    background-color: rgb( 150,150,150);
+    font-weight: 500;
+border-radius: 6px;
+border-color: rgb( 190,190,190);
+margin: 20px auto;
+width: 40vw;
+    transition: 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+.play {
+  margin: 4px auto 0;
+  text-align: center;
+}
+
+
+.panel {
+
+  margin: 10px 18px 18px;
+  font-size: 19px;
+-webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+-moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+box-shadow: -5px 32px 177px 200px rgba(0,0,0,0.8);
+background-color: rgba(0,0,0, 0.8)
+  
+}
+
+.score {
+ text-transform: uppercase;
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+
+
+@media (orientation:portrait) and ( min-width: 375px) {
+  body {
+    background-image: url(img/11iphoneX.jpg);
+    background-size: 100%;
+  }
+
+  .panel{
+    margin-top: 30px;
+  }
+  .score {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  ]
+}
+
+@media (orientation: landscape) and (max-width: 823px) {
+
+  body {
+  
+    background-position: center;
+}
+
+h1 {
+
+    font-size: 40px;
+    
+     text-transform: uppercase;
+     margin: 24px 30px 18px;
+     color: lightgray;
+     letter-spacing: 15px;
+    
+    }
+    .game {
+       height: 16vh;
+       margin: 0 auto;
+     
+     }
+
+     
+     .color img {
+         height: 14vh;
+          }
+
+          #bid, button {
+            
+            width: 22vw;
+            margin: 8px 20px;
+            padding: 5px;
+            display: inline-block;
+          }
+
+    
+
+}
+
+@media (orientation:portrait) and (min-width: 760px) {
+
+
+  body {
+  
+   
+    background-image: url(img/11ipad.jpg);
+    background-size: 100%;
+    
+}
+
+
+
+
+h1 {
+  font-size: 82px;
+   margin: 50px 30px 42px;
+   color: lightgray;
+   letter-spacing: 20px;
+  
+  }
+  .game {
+    height: 22vh;
+   
+  }
+  
+ 
+  
+  .color img {
+    
+      height: 12vh;
+      
+  }
+  
+  #bid{
+  
+    font-size: 22px;
+    padding: 10px 6px;
+    width: 28vw;
+    border-radius: 8px;
+  }
+
+  button {
+      font-size: 22px;
+      padding: 10px 6px;
+  border-radius: 8px;
+  margin: 32px auto;
+  width: 28vw;
+      
+  }
+  
+
+  .play {
+    margin: 20px auto 0;
+
+  }
+  
+  
+  .panel {
+  
+    margin: 10px 100px 18px;
+    font-size: 28px;
+      }
+  
+  .score {
+  
+   font-size: 18px;
+   margin: 40px;
+  }
+
+}
+
+@media (orientation:landscape) and (min-width: 1024px) {
+
+
+  body {
+  
+   position: relative;
+   height: 100%;
+    background-image: url(img/12ipadH.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    
+}
+
+
+h1 {
+  font-size: 64px;
+  margin-top: 76px;
+  -webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+  -moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+  box-shadow: -5px 32px 477px 100px rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0, 0.55);
+   letter-spacing: 30px;
+  
+  
+  }
+  .game {
+    height: 22vh;
+   
+  }
+  
+ 
+  
+ 
+  
+  #bid{
+  
+    font-size: 20px;
+    padding: 10px 6px;
+    width: 20vw;
+    border-radius: 8px;
+  }
+
+  button {
+      font-size: 20px;
+      padding: 10px 6px;
+  border-radius: 8px;
+  margin: 16px auto;
+  width: 20vw;
+      
+  }
+  
+  .color img {
+    height: 14vh;
+  }
+
+  .play {
+    margin: 10px auto 0;
+
+  }
+  
+  
+  .panel {
+  
+    margin: 10px 100px 18px;
+    font-size: 28px;
+      }
+  
+  .score {
+  
+   font-size: 18px;
+   margin: 40px;
+  }
+
+
+}
+
+@media (orientation:landscape) and (min-width: 1366px) {
+
+  body {
+    background-image: url(img/12.jpg);
+  }
+  #bid{
+  
+   
+    width: 16vw;
+
+  }
+
+  button {
+     
+  width: 16vw;
+      
+  }
+
+  h1 {
+    margin-top: 76px;
+    -webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+    -moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+    box-shadow: -5px 32px 177px 100px rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0, 0.7)
+  }
+}
