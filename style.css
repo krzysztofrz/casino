@@ -288,12 +288,22 @@ h1 {
   margin-top: 76px;
   -webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
   -moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
-  box-shadow: -5px 32px 477px 100px rgba(0,0,0,0.6);
-  background-color: rgba(0,0,0, 0.55);
+  box-shadow: -5px 32px 177px 100px rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0, 0.7);
    letter-spacing: 30px;
   
   
   }
+
+
+  /* h1 {
+    margin-top: 76px;
+    -webkit-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+    -moz-box-shadow: -5px 32px 177px 200px rgba(0,0,0,1);
+    box-shadow: -5px 32px 177px 100px rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0, 0.7)
+  } */
+
   .game {
     height: 22vh;
    
